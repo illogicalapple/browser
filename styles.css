@@ -1,0 +1,21 @@
+body *:nth-child(2) {
+	transform: translate(100px, -55px) !important;
+}
+
+img {
+	width: auto !important;
+	aspect-ratio: 20 / 1 !important;
+}
+
+* {
+	background-size: 10vw, 10vh !important;
+	background-repeat: repeat !important;
+}
+
+figcaption, p {
+	filter: blur(10px) !important;
+}
+
+:focus {
+	opacity: 0 !important;
+}
